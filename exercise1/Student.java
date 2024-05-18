@@ -10,9 +10,9 @@ public class Student extends Human{
     private String majorName;
     private String universityName;
 
-    public Student(String fullName){
-        super(fullName);
-    }
+    // public Student(String fullName){
+    //     super.setFullName(fullName);
+    // }
     
     // studentNumber
     public String getStudentNumber(){
