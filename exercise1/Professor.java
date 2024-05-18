@@ -9,9 +9,9 @@ public class Professor extends Human{
     private String professorFaculty;
     private int numberOfCourses;
     
-    public Professor(String fullName){
-        super(fullName);
-    }
+    // public Professor(String fullName){
+    //     super.setFullName(fullName);
+    // }
     
     // professorSpecialty
     public String getProfessorSpecialty(){
