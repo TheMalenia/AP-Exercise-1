@@ -16,6 +16,8 @@ public class Main {
         System.out.println(student instanceof Human); // true
         Professor professor = new Professor();
         System.out.println(professor instanceof Human); // true
+
+     
         Human human1 = new Student();
         human1.sayMyName();
         // -> Fullname: null
